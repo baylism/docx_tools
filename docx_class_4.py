@@ -152,39 +152,3 @@ class Document:
         else: 
             return 0
 
-# Testing
-#t = Document('docx_extract/testdoc1.docx')
-
-#print(t.get_text())
-#print(t.get_table_text())
-#print(t.count_tables())
-
-#print(t.get_footnotes())
-#print(t.count_fn_chars())
-#print(t.count_chars())
-#print(t.get_paras())
-
-
-#print(t.get_footnote_text())
-
-
-#print(t.get_endnote_text())
-#print(t.count_en_chars() + t.count_chars())
-
-
-
-
-# Print info 
-#print('Words: {0}'.format(words))
-#print('Chars incl spaces: {0}'.format(chars))
-#print('Chars no spaces: {0}'.format(chars_no_spaces))
-
-#if eq_lines:
-#    print('EQ lines: {0}'.format(eq_lines))
-
-#print(paras)
-# Print text to stdout
-#p_output(output)
-
-# Save text to File
-#save_output(output)
