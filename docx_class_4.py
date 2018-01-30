@@ -1,5 +1,5 @@
 import zipfile
-from helpers import parse, parse_notes
+from parsers import parse, parse_notes
 
 # Define XML document schema tags
 TEXT_NAMESPACE = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
