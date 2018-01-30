@@ -1,4 +1,4 @@
-from docx_class_4 import Document
+from docx import Document
 import os
 import csv
 
